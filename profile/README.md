@@ -17,7 +17,7 @@
 <p align="center">
   <a href="https://scryai.net"><picture><source media="(prefers-reduced-motion: reduce)" srcset="scry-dosbox-x-4x3.png"><img src="scry-dosbox-x-4x3.webp" alt="Monkey Island's lookout answering as written, then with a line written into memory" width="960"></picture></a>
 </p>
-<p align="center"><em>Your client writes a new line into Monkey Island's memory while the game runs, and the lookout says it.</em></p>
+<p align="center"><em>Your client writes a new line into Monkey Island's memory, and the lookout says it.</em></p>
 
 SCRY is two [MCP](https://modelcontextprotocol.io) servers, one per emulator. Each keeps its
 emulator open at the debugger, and every reply carries its evidence.
@@ -27,8 +27,9 @@ emulator open at the debugger, and every reply carries its evidence.
 - **[scry-dosbox-x](https://github.com/scry-mcp/scry-dosbox-x#install)**: a DOS program running
   in DOSBox-X.
 
-Both run on macOS and Windows, and need git and [uv](https://docs.astral.sh/uv/). Each server's
-README has the lines to paste into your MCP client, and a first question to ask.
+Both run on macOS and Windows, and need git, [uv](https://docs.astral.sh/uv/) and the emulator
+built with its debugger. Each server's README has the lines to paste into your MCP client, and
+a first question to ask.
 
 ## What you can ask
 
