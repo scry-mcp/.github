@@ -7,7 +7,9 @@
 <p align="center">SCRY connects your AI client to MAME and DOSBox-X: it stops the program, reads its memory by name and presses its inputs.</p>
 
 <p align="center">
-  <a href="https://scryai.net"><img src="https://img.shields.io/badge/scryai.net%20%E2%86%92-c8102e?style=for-the-badge" alt="scryai.net →"></a>
+  <a href="https://scryai.net"><img src="scryai-button.svg" alt="Visit scryai.net →" width="300"></a>
+</p>
+<p align="center">
   <a href="https://github.com/scry-mcp/scry-mame"><img src="https://img.shields.io/badge/scry--mame-24292f?style=flat-square&logo=github" alt="scry-mame on GitHub"></a>
   <a href="https://github.com/scry-mcp/scry-dosbox-x"><img src="https://img.shields.io/badge/scry--dosbox--x-24292f?style=flat-square&logo=github" alt="scry-dosbox-x on GitHub"></a>
 </p>
