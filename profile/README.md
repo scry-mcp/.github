@@ -2,24 +2,28 @@
   <img src="https://raw.githubusercontent.com/scry-mcp/scry-core/main/docs/scry-logo.png" alt="SCRY" width="240">
 </p>
 
-<p align="center"><b>SCRY turns your AI client into a debugger for old machines: ask what a program in MAME or DOSBox-X is doing, and it finds out.</b></p>
+<h3 align="center">Ask a running game what it's thinking.</h3>
+
+<p align="center">SCRY connects your AI client to MAME and DOSBox-X: it stops the program, reads its memory by name and presses its inputs.</p>
 
 <p align="center">
-  <a href="https://github.com/scry-mcp/scry-dosbox-x"><picture><source media="(prefers-reduced-motion: reduce)" srcset="https://raw.githubusercontent.com/scry-mcp/scry-core/main/docs/scry-dosbox-x.png"><img src="https://raw.githubusercontent.com/scry-mcp/scry-core/main/docs/scry-dosbox-x.webp" alt="Monkey Island's lookout answering as written, then with a line written into memory" width="444"></picture></a>
-  <a href="https://github.com/scry-mcp/scry-mame"><picture><source media="(prefers-reduced-motion: reduce)" srcset="https://raw.githubusercontent.com/scry-mcp/scry-core/main/docs/scry-mame.png"><img src="https://raw.githubusercontent.com/scry-mcp/scry-core/main/docs/scry-mame.webp" alt="LineUp played on the arcade board: three shots, each from another column or colour" width="320"></picture></a>
+  <a href="https://scryai.net"><img src="https://img.shields.io/badge/scryai.net-%E2%86%92-c8102e?style=for-the-badge" alt="scryai.net →" height="28"></a>
+  <a href="https://github.com/scry-mcp/scry-mame"><img src="https://img.shields.io/badge/scry--mame-GitHub-24292f?style=for-the-badge&logo=github" alt="scry-mame on GitHub" height="28"></a>
+  <a href="https://github.com/scry-mcp/scry-dosbox-x"><img src="https://img.shields.io/badge/scry--dosbox--x-GitHub-24292f?style=for-the-badge&logo=github" alt="scry-dosbox-x on GitHub" height="28"></a>
 </p>
-<p align="center"><em>scry-dosbox-x rewrites a line of Monkey Island while the game runs; scry-mame plays LineUp on its arcade board, one call a shot.</em></p>
+
+<p align="center">
+  <a href="https://scryai.net"><picture><source media="(prefers-reduced-motion: reduce)" srcset="https://raw.githubusercontent.com/scry-mcp/scry-core/main/docs/scry-dosbox-x.png"><img src="https://raw.githubusercontent.com/scry-mcp/scry-core/main/docs/scry-dosbox-x.webp" alt="Monkey Island's lookout answering as written, then with a line written into memory" width="800" height="432"></picture></a>
+</p>
+<p align="center"><em>Your client writes a new line into Monkey Island's memory while the game runs, and the lookout says it.</em></p>
 
 SCRY is two [MCP](https://modelcontextprotocol.io) servers, one per emulator. Each keeps its
-emulator open at the debugger, so your client can stop the program, read its memory by name
-and press its inputs. Every reply carries its evidence.
+emulator open at the debugger, and every reply carries its evidence.
 
 - **[scry-mame](https://github.com/scry-mcp/scry-mame#install)**: an arcade board or a home
   computer running in MAME.
 - **[scry-dosbox-x](https://github.com/scry-mcp/scry-dosbox-x#install)**: a DOS program running
   in DOSBox-X.
-- **[scryai.net](https://scryai.net)**: both servers in one place, with a page for every tool
-  and every demo.
 
 Both run on macOS and Windows, and need git and [uv](https://docs.astral.sh/uv/). Each server's
 README has the lines to paste into your MCP client, and a first question to ask.
