@@ -2,18 +2,18 @@
   <img src="https://raw.githubusercontent.com/scry-mcp/scry-core/main/docs/scry-logo.png" alt="SCRY" width="240">
 </p>
 
-<h3 align="center">Ask a running game what it's thinking.</h3>
+<h2 align="center">Ask a running game what it's thinking.</h2>
 
 <p align="center">SCRY connects your AI client to MAME and DOSBox-X: it stops the program, reads its memory by name and presses its inputs.</p>
 
 <p align="center">
-  <a href="https://scryai.net"><img src="https://img.shields.io/badge/scryai.net-%E2%86%92-c8102e?style=for-the-badge" alt="scryai.net →" height="28"></a>
-  <a href="https://github.com/scry-mcp/scry-mame"><img src="https://img.shields.io/badge/scry--mame-GitHub-24292f?style=for-the-badge&logo=github" alt="scry-mame on GitHub" height="28"></a>
-  <a href="https://github.com/scry-mcp/scry-dosbox-x"><img src="https://img.shields.io/badge/scry--dosbox--x-GitHub-24292f?style=for-the-badge&logo=github" alt="scry-dosbox-x on GitHub" height="28"></a>
+  <a href="https://scryai.net"><img src="https://img.shields.io/badge/scryai.net%20%E2%86%92-c8102e?style=for-the-badge" alt="scryai.net →" height="40"></a>
+  <a href="https://github.com/scry-mcp/scry-mame"><img src="https://img.shields.io/badge/scry--mame-24292f?style=for-the-badge&logo=github" alt="scry-mame on GitHub" height="40"></a>
+  <a href="https://github.com/scry-mcp/scry-dosbox-x"><img src="https://img.shields.io/badge/scry--dosbox--x-24292f?style=for-the-badge&logo=github" alt="scry-dosbox-x on GitHub" height="40"></a>
 </p>
 
 <p align="center">
-  <a href="https://scryai.net"><picture><source media="(prefers-reduced-motion: reduce)" srcset="https://raw.githubusercontent.com/scry-mcp/scry-core/main/docs/scry-dosbox-x.png"><img src="https://raw.githubusercontent.com/scry-mcp/scry-core/main/docs/scry-dosbox-x.webp" alt="Monkey Island's lookout answering as written, then with a line written into memory" width="800" height="432"></picture></a>
+  <a href="https://scryai.net"><picture><source media="(prefers-reduced-motion: reduce)" srcset="scry-dosbox-x-4x3.png"><img src="scry-dosbox-x-4x3.webp" alt="Monkey Island's lookout answering as written, then with a line written into memory" width="960"></picture></a>
 </p>
 <p align="center"><em>Your client writes a new line into Monkey Island's memory while the game runs, and the lookout says it.</em></p>
 
